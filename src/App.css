@@ -1,0 +1,63 @@
+.App {
+  background: linear-gradient(90deg, #141E30 13%, #243B55 104%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background: linear-gradient(90deg, #141E30 13%, #243B55 104%);
+}
+.logo {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-image: url(/public/logo1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.title {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.footer {
+  height: 4rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background: linear-gradient(90deg, #141E30 13%, #243B55 104%);
+  position: relative;
+}
+.text-input {
+  width: 100%;
+  border: 1px solid white;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  background: #EBEBEB;
+  ;
+  color: black;
+}
+.send {
+  background: #9EB9BD;
+  border-radius: 50%;
+  border: none;
+  height: 1.7rem;
+  width: 1.7rem;
+  position: absolute;
+  right: 1.15rem;
+  cursor: pointer;
+}
