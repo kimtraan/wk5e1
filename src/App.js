@@ -1,4 +1,5 @@
 import "./App.css";
+import TextInput from "./TextInput.js";
 
 function App() {
   return (
@@ -10,10 +11,7 @@ function App() {
         <div className="logo" />
         <span className="title">Chipchat</span>
       </header>
-      <footer className="footer">
-        <input className="text-input" placeholder ="write a message..." />
-        <button className="send">↑</button>
-      </footer>
+      <TextInput />
     </div>
   );
 }

@@ -1,0 +1,30 @@
+.footer {
+    height: 4rem;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    background: linear-gradient(90deg, #141E30 13%, #243B55 104%);
+    position: relative;
+  }
+  .text-input {
+    width: 100%;
+    border: 1px solid white;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    background: #EBEBEB;
+    ;
+    color: black;
+  }
+  .send {
+    background: #9EB9BD;
+    border-radius: 50%;
+    border: none;
+    height: 1.7rem;
+    width: 1.7rem;
+    position: absolute;
+    right: 1.15rem;
+    cursor: pointer;
+  }
