@@ -2,6 +2,7 @@ import "./App.css";
 import TextInput from "./TextInput.js";
 import {useState} from 'react';
 import Message from "./Message";
+import ChatBubble from 'react-chat-bubble';
 
 function App() {
   const [messages, setMessages] = useState([]);
@@ -31,6 +32,7 @@ function App() {
           return <Message {...msg} />;
         })}
       </div>
+      {/* <ChatBubble messages = {...msg} */}
       <TextInput sendMessage={sendMessage} />
     </div>
   );

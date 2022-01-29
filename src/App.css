@@ -55,11 +55,10 @@ chat app and create the overall formatting of the chat app*/
 .text-input {
   width: 100%;
   border: 1px solid white;
-  height: 2rem;
+  height: 1rem;
   border-radius: 1rem;
   padding: 0 1rem;
   background: #EBEBEB;
-  ;
   color: black;
 }
 
@@ -75,6 +74,7 @@ chat app and create the overall formatting of the chat app*/
   cursor: pointer;
 }
 
+/*defines the position of the message when it is sent*/
 .messages {
   display: flex;
   flex-direction: column-reverse;
@@ -84,6 +84,9 @@ chat app and create the overall formatting of the chat app*/
   min-height: calc(100vh - 4rem - 4rem);
   padding: 1rem;
 }
+
+
+/*styling for message bubbles that appear after pressing send*/
 .message {
   color: white;
   background: teal;

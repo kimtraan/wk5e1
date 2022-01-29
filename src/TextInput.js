@@ -23,7 +23,7 @@ function TextInput(props) {
             onChange = {(e) => setText(e.target.value)}
             onKeyPress = {onKeyPress}
            />
-            <button className="send" onClick = {send}>↑
+            <button className="send" onClick = {send}><img src = "Arrow.png"></img>
             </button> 
         </footer>
     );
