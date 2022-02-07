@@ -5,6 +5,9 @@ import Message from "./Message";
 import ChatBubble from 'react-chat-bubble';
 import Camera from 'react-snap-pic'
 import { AiFillEdit } from "react-icons/ai";
+import NamePicker from './NamePicker.js';
+
+
 
 function App() {
   let [showCamera, setShowCamera] = useState(false)
@@ -34,7 +37,8 @@ function App() {
       </style>
         <div className="logo" />
         <span className="title">Chipchat</span>
-        < div class='username'>Set Username</div>
+        <NamePicker />
+
       </header>
     
       <div className="messages">
