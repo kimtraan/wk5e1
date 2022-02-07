@@ -60,6 +60,7 @@ chat app and create the overall formatting of the chat app*/
   padding: 0 1rem;
   background: #EBEBEB;
   color: black;
+  width:calc(100% - 50px);
 }
 
 /*this is for the styles of the send button*/
@@ -93,4 +94,11 @@ chat app and create the overall formatting of the chat app*/
   padding: 0.5rem 1rem;
   margin: 0.2rem;
   border-radius: 0.3rem;
+}
+
+.username {
+  color: white;
+  display: flex;
+  justify-content: flex-end ;
+
 }
