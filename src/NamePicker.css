@@ -1,0 +1,9 @@
+.input {
+    display: flex;
+    flex-direction: flex-end ;
+}
+
+.inputbtn {
+    height: 20px;
+    width: 20px;
+}
