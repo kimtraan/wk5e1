@@ -10,11 +10,14 @@ chat app and create the overall formatting of the chat app*/
 
 /*this creates the styles for the header of the chat app*/
 .header {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  gap: 10px 10px 100px;
   margin-top: 10px;
   margin-left: 10px;
   height: 4rem;
   width: 100%;
-  display: flex;
   align-items: center;
   padding: 0 1rem;
   background: linear-gradient(90deg, #141E30 13%, #243B55 104%);
@@ -97,8 +100,7 @@ chat app and create the overall formatting of the chat app*/
 }
 
 .username {
+  display:flex;
+  justify-content: space-between;
   color: white;
-  display: flex;
-  justify-content: flex-end ;
-
 }

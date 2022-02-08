@@ -39,10 +39,10 @@ function App() {
       </style>
         <div className="logo" />
         <span className="title">Chipchat</span>
-        < NamePicker save = {setUsername}/>
-
+        <div className = "username">
+          <NamePicker save = {setUsername}/>
+        </div>
       </header>
-    
       <div className="messages">
         {messages.map((msg) => {
           return <Message {...msg} />;
