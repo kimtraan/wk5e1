@@ -95,12 +95,21 @@ chat app and create the overall formatting of the chat app*/
   color: white;
   background: teal;
   padding: 0.5rem 1rem;
-  margin: 0.2rem;
+  margin: 0.5rem;
   border-radius: 0.3rem;
 }
 
+/*creates a formatting container for the username and equally spaces the contents in container*/
 .username {
   display:flex;
   justify-content: space-between;
   color: white;
+}
+
+/*to display the user's username above their message*/
+.message-user {
+  position:absolute;
+  left:0;
+  top: -1px;
+  font-size: 0.5rem;
 }

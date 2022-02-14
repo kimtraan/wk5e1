@@ -7,20 +7,22 @@ import Camera from 'react-snap-pic'
 import { AiFillEdit } from "react-icons/ai";
 import NamePicker from './NamePicker.js';
 import "./NamePicker.css";
+import {useDB, db} from './db.js';
 
 
 
 function App() {
   let [showCamera, setShowCamera] = useState(false)
-  let [messages, setMessages] = useState([]);
+  // let [messages, setMessages] = useState([]);
+  const messages = useDB();
   let [username, setUsername] = useState("");
   function sendMessage(text) {
     const newMessage = {
       text,
       time: Date.now(),
-      user: "Kim",
+      user: username,
     };
-    setMessages([newMessage, ...messages]);
+    db.send(newMessage);
 
   }
 

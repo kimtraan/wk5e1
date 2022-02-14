@@ -1,8 +1,10 @@
+/*creates a flexbox to contain the text input box*/
 .input {
     display: flex;
     flex-direction: flex-end ;
 }
 
+/*creates submit button*/
 .inputbtn {
     height: 20px;
     width: 20px;
